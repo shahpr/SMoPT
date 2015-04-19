@@ -1,0 +1,13 @@
+Concepts developed by:
+Premal Shah		shahpr@sas.upenn.edu
+Joshua B. Plotkin	jplotkin@sas.upenn.edu
+
+Code written by:
+Premal Shah		shahpr@sas.upenn.edu
+
+Code currently maintained by:
+Premal Shah		shahpr@sas.upenn.edu
+
+The model is described in: 
+Shah P, Ding Y, Niemczyk M, Kudla G, and Plotkin JB. 
+Rate-limiting steps in yeast protein translation. Cell (In Press)

@@ -1,0 +1,3 @@
+Version 1.0
+This is basic functional version of the code for protein translation.
+As a result, it requires many precomputed parameters (see README.txt)
