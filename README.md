@@ -14,7 +14,7 @@ DESCRIPTION:
 
 	The model is described in: 
 	Shah P, Ding Y, Niemczyk M, Kudla G, and Plotkin JB. 
-	Rate-limiting steps in yeast protein translation. Cell (In Press)
+	Rate-limiting steps in yeast protein translation. (2013) Cell 153 (7): 1589-1601
 
 	****When using this work please cite the above paper****
 
