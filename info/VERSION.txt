@@ -1,3 +1,21 @@
 Version 1.0
-This is basic functional version of the code for protein translation.
-As a result, it requires many precomputed parameters (see README.txt)
+	This is basic functional version of the code for protein translation.
+	As a result, it requires many precomputed parameters (see README.txt)
+
+Version 2.0
+	Major changes:
+		1. Added the functionality to read in the state of a cell - position of all bound ribosomes on mRNAs. 
+		   This allows the simulation to continue from any particular state of the cell.
+		2. Added the ability to simulate the effects of cycloheximide (CHX) and harringtonine (Harr).
+		   CHX acts in a reversible manner and takes in 3 parameters for simulation:
+		   	(i)   Time at which CHX is introduced into the cell (Tc).
+			(ii)  Probability with which a recently elongated ribosome is bound by CHX (x1).
+			(iii) The rate at which CHX bound to a ribosome dissociates (x2).
+		   Harr acts in a irreversible manner by binding a free ribosome. Upon initiation a Harr bound ribosome
+		   stalls immediately at the start codon. Harr simulation takes in 2 parameters:
+		   	(i)   Time at which Harr is introduced into the cell (Th).
+			(ii)  The rate at which Harr binds to fre ribosomes (y).
+
+	Minor changes:
+		1. The simulation code now requires GSL library for random number generation using gsl_rng_mt19937 algorithm.
+		2. The code now allows printing of several pre-processed files (see README)
