@@ -162,4 +162,4 @@ UPDATES:
 	https://github.com/shahpr/SMoPT
 
 BUGS:
-	In case of any bugs or trouble with the code, send a mail to shahpr@sas.upenn.edu
+	In case of any bugs or trouble with the code, send a mail to premal.shah@rutgers.edu
